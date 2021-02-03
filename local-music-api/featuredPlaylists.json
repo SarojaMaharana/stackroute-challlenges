@@ -1,0 +1,517 @@
+{
+    "message": "Editor's picks",
+    "playlists": {
+        "href": "https://api.spotify.com/v1/browse/featured-playlists?country=IN&timestamp=2020-11-12T19%3A06%3A23&offset=0&limit=20",
+        "items": [
+            {
+                "collaborative": false,
+                "description": "A cup of tea served with some retro tunes.",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWY1kDGbdPb81"
+                },
+                "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWY1kDGbdPb81",
+                "id": "37i9dQZF1DWY1kDGbdPb81",
+                "images": [
+                    {
+                        "height": null,
+                        "url": "https://i.scdn.co/image/ab67706f000000030b376c5227ccdccdfdc25ead",
+                        "width": null
+                    }
+                ],
+                "name": "Chai & Classics",
+                "owner": {
+                    "display_name": "Spotify",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/spotify"
+                    },
+                    "href": "https://api.spotify.com/v1/users/spotify",
+                    "id": "spotify",
+                    "type": "user",
+                    "uri": "spotify:user:spotify"
+                },
+                "primary_color": null,
+                "public": null,
+                "snapshot_id": "MTU5ODk1MTc5MiwwMDAwMDAwZjAwMDAwMTc0NDhmNDFlODgwMDAwMDE3MjczYTkxYzY0",
+                "tracks": {
+                    "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWY1kDGbdPb81/tracks",
+                    "total": 56
+                },
+                "type": "playlist",
+                "uri": "spotify:playlist:37i9dQZF1DWY1kDGbdPb81"
+            },
+            {
+                "collaborative": false,
+                "description": "Time to chill with your favorites.",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX8qj1nSNkJqB"
+                },
+                "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX8qj1nSNkJqB",
+                "id": "37i9dQZF1DX8qj1nSNkJqB",
+                "images": [
+                    {
+                        "height": null,
+                        "url": "https://i.scdn.co/image/ab67706f0000000378d556fa179d8eae4f3530cc",
+                        "width": null
+                    }
+                ],
+                "name": "Chaa & Chill",
+                "owner": {
+                    "display_name": "Spotify",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/spotify"
+                    },
+                    "href": "https://api.spotify.com/v1/users/spotify",
+                    "id": "spotify",
+                    "type": "user",
+                    "uri": "spotify:user:spotify"
+                },
+                "primary_color": null,
+                "public": null,
+                "snapshot_id": "MTYwNDkxODcwMSwwMDAwMDAxOTAwMDAwMTc1YWM5YmVjMDQwMDAwMDE3MzQyYzgyYmU4",
+                "tracks": {
+                    "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX8qj1nSNkJqB/tracks",
+                    "total": 64
+                },
+                "type": "playlist",
+                "uri": "spotify:playlist:37i9dQZF1DX8qj1nSNkJqB"
+            },
+            {
+                "collaborative": false,
+                "description": "Enjoy the Magical Voice of Sid",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWURwnI16u16C"
+                },
+                "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWURwnI16u16C",
+                "id": "37i9dQZF1DWURwnI16u16C",
+                "images": [
+                    {
+                        "height": null,
+                        "url": "https://i.scdn.co/image/ab67706f0000000323ca32df8609b2a28972a66e",
+                        "width": null
+                    }
+                ],
+                "name": "Sensational Sid Sriram",
+                "owner": {
+                    "display_name": "Spotify",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/spotify"
+                    },
+                    "href": "https://api.spotify.com/v1/users/spotify",
+                    "id": "spotify",
+                    "type": "user",
+                    "uri": "spotify:user:spotify"
+                },
+                "primary_color": null,
+                "public": null,
+                "snapshot_id": "MTYwMzg2NjQ4MywwMDAwMDAwYTAwMDAwMTc1NmRlNDVhM2EwMDAwMDE3M2YwNWI0Zjcy",
+                "tracks": {
+                    "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWURwnI16u16C/tracks",
+                    "total": 62
+                },
+                "type": "playlist",
+                "uri": "spotify:playlist:37i9dQZF1DWURwnI16u16C"
+            },
+            {
+                "collaborative": false,
+                "description": "Bubbling under today, stars of tomorrow. Stream Taba Chake's latest single NOW!",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWTAtTdFMiJYK"
+                },
+                "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWTAtTdFMiJYK",
+                "id": "37i9dQZF1DWTAtTdFMiJYK",
+                "images": [
+                    {
+                        "height": null,
+                        "url": "https://i.scdn.co/image/ab67706f00000003df486cd0abf7548f2771442a",
+                        "width": null
+                    }
+                ],
+                "name": "Radar India",
+                "owner": {
+                    "display_name": "Spotify",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/spotify"
+                    },
+                    "href": "https://api.spotify.com/v1/users/spotify",
+                    "id": "spotify",
+                    "type": "user",
+                    "uri": "spotify:user:spotify"
+                },
+                "primary_color": null,
+                "public": null,
+                "snapshot_id": "MTYwNTE2OTc4NSwwMDAwMDEzNDAwMDAwMTc1YmI5MzI5OGQwMDAwMDE3NWFlNzVmNzAz",
+                "tracks": {
+                    "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWTAtTdFMiJYK/tracks",
+                    "total": 102
+                },
+                "type": "playlist",
+                "uri": "spotify:playlist:37i9dQZF1DWTAtTdFMiJYK"
+            },
+            {
+                "collaborative": false,
+                "description": "Salaam Hyderabad - Ye Mera City!",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX1i8676pPzlq"
+                },
+                "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX1i8676pPzlq",
+                "id": "37i9dQZF1DX1i8676pPzlq",
+                "images": [
+                    {
+                        "height": null,
+                        "url": "https://i.scdn.co/image/ab67706f00000003a1e68cbc85ac29a067daf014",
+                        "width": null
+                    }
+                ],
+                "name": "Hum Hyderabadi",
+                "owner": {
+                    "display_name": "Spotify",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/spotify"
+                    },
+                    "href": "https://api.spotify.com/v1/users/spotify",
+                    "id": "spotify",
+                    "type": "user",
+                    "uri": "spotify:user:spotify"
+                },
+                "primary_color": null,
+                "public": null,
+                "snapshot_id": "MTYwNDMwNzcwMywwMDAwMDAxYjAwMDAwMTc1ODgzMGQ2YzcwMDAwMDE3Mjc0OGYyM2Q1",
+                "tracks": {
+                    "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX1i8676pPzlq/tracks",
+                    "total": 40
+                },
+                "type": "playlist",
+                "uri": "spotify:playlist:37i9dQZF1DX1i8676pPzlq"
+            },
+            {
+                "collaborative": false,
+                "description": "Down the memory lane with pop from 90s and 2000s.",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX0Uo5pVktwNd"
+                },
+                "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX0Uo5pVktwNd",
+                "id": "37i9dQZF1DX0Uo5pVktwNd",
+                "images": [
+                    {
+                        "height": null,
+                        "url": "https://i.scdn.co/image/ab67706f00000003d1b854aef3438f4ca38ee2e3",
+                        "width": null
+                    }
+                ],
+                "name": "Indipop Nostalgia",
+                "owner": {
+                    "display_name": "Spotify",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/spotify"
+                    },
+                    "href": "https://api.spotify.com/v1/users/spotify",
+                    "id": "spotify",
+                    "type": "user",
+                    "uri": "spotify:user:spotify"
+                },
+                "primary_color": null,
+                "public": null,
+                "snapshot_id": "MTU5ODM0MDczMSwwMDAwMDAwODAwMDAwMTc0MjQ4ODExOTcwMDAwMDE3MGM0YWFjZWZk",
+                "tracks": {
+                    "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX0Uo5pVktwNd/tracks",
+                    "total": 43
+                },
+                "type": "playlist",
+                "uri": "spotify:playlist:37i9dQZF1DX0Uo5pVktwNd"
+            },
+            {
+                "collaborative": false,
+                "description": "Explore the Romantic side of Indie Music",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX4zLx23RHqni"
+                },
+                "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX4zLx23RHqni",
+                "id": "37i9dQZF1DX4zLx23RHqni",
+                "images": [
+                    {
+                        "height": null,
+                        "url": "https://i.scdn.co/image/ab67706f00000003ef510f6a35e94172b7485125",
+                        "width": null
+                    }
+                ],
+                "name": "Indie Romance",
+                "owner": {
+                    "display_name": "Spotify",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/spotify"
+                    },
+                    "href": "https://api.spotify.com/v1/users/spotify",
+                    "id": "spotify",
+                    "type": "user",
+                    "uri": "spotify:user:spotify"
+                },
+                "primary_color": null,
+                "public": null,
+                "snapshot_id": "MTYwMjA3NDEyMiwwMDAwMDAyNTAwMDAwMTc1MDMwZjE5NjYwMDAwMDE3MGFmNDQ4NTg3",
+                "tracks": {
+                    "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX4zLx23RHqni/tracks",
+                    "total": 65
+                },
+                "type": "playlist",
+                "uri": "spotify:playlist:37i9dQZF1DX4zLx23RHqni"
+            },
+            {
+                "collaborative": false,
+                "description": "Soothing hits from 80s!",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX9fUQ6aOfmKu"
+                },
+                "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX9fUQ6aOfmKu",
+                "id": "37i9dQZF1DX9fUQ6aOfmKu",
+                "images": [
+                    {
+                        "height": null,
+                        "url": "https://i.scdn.co/image/ab67706f000000032dcb8ebbb26f7157670c1f95",
+                        "width": null
+                    }
+                ],
+                "name": "Manchu Kurise Velalo",
+                "owner": {
+                    "display_name": "Spotify",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/spotify"
+                    },
+                    "href": "https://api.spotify.com/v1/users/spotify",
+                    "id": "spotify",
+                    "type": "user",
+                    "uri": "spotify:user:spotify"
+                },
+                "primary_color": null,
+                "public": null,
+                "snapshot_id": "MTU4Mzg0NzMyOCwwMDAwMDAwNDAwMDAwMTZiZDEyYmJjNTgwMDAwMDE3MGM0YTg0YmVl",
+                "tracks": {
+                    "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX9fUQ6aOfmKu/tracks",
+                    "total": 31
+                },
+                "type": "playlist",
+                "uri": "spotify:playlist:37i9dQZF1DX9fUQ6aOfmKu"
+            },
+            {
+                "collaborative": false,
+                "description": "Bollywood tunes with a hint of Folk",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWY6ckhaeMxjf"
+                },
+                "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWY6ckhaeMxjf",
+                "id": "37i9dQZF1DWY6ckhaeMxjf",
+                "images": [
+                    {
+                        "height": null,
+                        "url": "https://i.scdn.co/image/ab67706f00000003ccf8f1cd0f33cad71bcf9968",
+                        "width": null
+                    }
+                ],
+                "name": "Bollywood Folk",
+                "owner": {
+                    "display_name": "Spotify",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/spotify"
+                    },
+                    "href": "https://api.spotify.com/v1/users/spotify",
+                    "id": "spotify",
+                    "type": "user",
+                    "uri": "spotify:user:spotify"
+                },
+                "primary_color": null,
+                "public": null,
+                "snapshot_id": "MTU5MDczNTIyNSwwMDAwMDAwNDAwMDAwMTcyNWYzNTQxOGYwMDAwMDE3MTgyM2ZhYmMx",
+                "tracks": {
+                    "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWY6ckhaeMxjf/tracks",
+                    "total": 31
+                },
+                "type": "playlist",
+                "uri": "spotify:playlist:37i9dQZF1DWY6ckhaeMxjf"
+            },
+            {
+                "collaborative": false,
+                "description": "Where South meets West!",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX3Y43aZdfDPU"
+                },
+                "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX3Y43aZdfDPU",
+                "id": "37i9dQZF1DX3Y43aZdfDPU",
+                "images": [
+                    {
+                        "height": null,
+                        "url": "https://i.scdn.co/image/ab67706f0000000366c4920349468f0970205a6a",
+                        "width": null
+                    }
+                ],
+                "name": "Carnatic Fusion",
+                "owner": {
+                    "display_name": "Spotify",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/spotify"
+                    },
+                    "href": "https://api.spotify.com/v1/users/spotify",
+                    "id": "spotify",
+                    "type": "user",
+                    "uri": "spotify:user:spotify"
+                },
+                "primary_color": null,
+                "public": null,
+                "snapshot_id": "MTYwNTIwNzkzOSwwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
+                "tracks": {
+                    "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX3Y43aZdfDPU/tracks",
+                    "total": 61
+                },
+                "type": "playlist",
+                "uri": "spotify:playlist:37i9dQZF1DX3Y43aZdfDPU"
+            },
+            {
+                "collaborative": false,
+                "description": "Sit Back , Unwind Te Thand Rakho!",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX9L0PulSSl2E"
+                },
+                "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX9L0PulSSl2E",
+                "id": "37i9dQZF1DX9L0PulSSl2E",
+                "images": [
+                    {
+                        "height": null,
+                        "url": "https://i.scdn.co/image/ab67706f00000003502a29651f0f73fed5079ea8",
+                        "width": null
+                    }
+                ],
+                "name": "Chill Karlo",
+                "owner": {
+                    "display_name": "Spotify",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/spotify"
+                    },
+                    "href": "https://api.spotify.com/v1/users/spotify",
+                    "id": "spotify",
+                    "type": "user",
+                    "uri": "spotify:user:spotify"
+                },
+                "primary_color": null,
+                "public": null,
+                "snapshot_id": "MTYwNDkxODcxNSwwMDAwMDA1NDAwMDAwMTc1YWM5YzIyOWIwMDAwMDE3MGE0ZjI0NmNl",
+                "tracks": {
+                    "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX9L0PulSSl2E/tracks",
+                    "total": 95
+                },
+                "type": "playlist",
+                "uri": "spotify:playlist:37i9dQZF1DX9L0PulSSl2E"
+            },
+            {
+                "collaborative": false,
+                "description": "Unwind to these melodic Marathi tracks.",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWXLh1BUkKuEw"
+                },
+                "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWXLh1BUkKuEw",
+                "id": "37i9dQZF1DWXLh1BUkKuEw",
+                "images": [
+                    {
+                        "height": null,
+                        "url": "https://i.scdn.co/image/ab67706f000000039a8fde86a70f92e8d669eee5",
+                        "width": null
+                    }
+                ],
+                "name": "Marathi Unwind",
+                "owner": {
+                    "display_name": "Spotify",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/spotify"
+                    },
+                    "href": "https://api.spotify.com/v1/users/spotify",
+                    "id": "spotify",
+                    "type": "user",
+                    "uri": "spotify:user:spotify"
+                },
+                "primary_color": null,
+                "public": null,
+                "snapshot_id": "MTYwNDU4MTY2MSwwMDAwMDAyZjAwMDAwMTc1OTg4NTFhMWYwMDAwMDE3MGFmMzg3OTg0",
+                "tracks": {
+                    "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWXLh1BUkKuEw/tracks",
+                    "total": 58
+                },
+                "type": "playlist",
+                "uri": "spotify:playlist:37i9dQZF1DWXLh1BUkKuEw"
+            },
+            {
+                "collaborative": false,
+                "description": "Handpicked Indie tracks from South India.\nCover : Chennai Street Band",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX9jSVwpVkqdw"
+                },
+                "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX9jSVwpVkqdw",
+                "id": "37i9dQZF1DX9jSVwpVkqdw",
+                "images": [
+                    {
+                        "height": null,
+                        "url": "https://i.scdn.co/image/ab67706f00000003ea452a5aab76ba46c3246364",
+                        "width": null
+                    }
+                ],
+                "name": "South Indies",
+                "owner": {
+                    "display_name": "Spotify",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/spotify"
+                    },
+                    "href": "https://api.spotify.com/v1/users/spotify",
+                    "id": "spotify",
+                    "type": "user",
+                    "uri": "spotify:user:spotify"
+                },
+                "primary_color": null,
+                "public": null,
+                "snapshot_id": "MTYwMjQ5OTAzNSwwMDAwMDA0NjAwMDAwMTc1MWM2MmMyYmQwMDAwMDE3M2Q2OWFjZTVi",
+                "tracks": {
+                    "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX9jSVwpVkqdw/tracks",
+                    "total": 102
+                },
+                "type": "playlist",
+                "uri": "spotify:playlist:37i9dQZF1DX9jSVwpVkqdw"
+            },
+            {
+                "collaborative": false,
+                "description": "Grab your lassi, it's time for hottest Punjabi hits. Cover : Ammy Virk",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX1AVAcepRsUl"
+                },
+                "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX1AVAcepRsUl",
+                "id": "37i9dQZF1DX1AVAcepRsUl",
+                "images": [
+                    {
+                        "height": null,
+                        "url": "https://i.scdn.co/image/ab67706f0000000339fa011e0f1b5be29a1eb007",
+                        "width": null
+                    }
+                ],
+                "name": "Hot Bhangra",
+                "owner": {
+                    "display_name": "Spotify",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/spotify"
+                    },
+                    "href": "https://api.spotify.com/v1/users/spotify",
+                    "id": "spotify",
+                    "type": "user",
+                    "uri": "spotify:user:spotify"
+                },
+                "primary_color": null,
+                "public": null,
+                "snapshot_id": "MTYwNTA4NDY3MywwMDAwMDA0MDAwMDAwMTc1YjY4MDc3MWUwMDAwMDE3MTdjNTNjY2U5",
+                "tracks": {
+                    "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX1AVAcepRsUl/tracks",
+                    "total": 57
+                },
+                "type": "playlist",
+                "uri": "spotify:playlist:37i9dQZF1DX1AVAcepRsUl"
+            }
+        ],
+        "limit": 20,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total": 14
+    }
+}

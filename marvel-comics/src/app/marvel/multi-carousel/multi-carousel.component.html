@@ -1,0 +1,31 @@
+<!-- <div class="item-1">
+    <div class="imgBox">
+        <img src="http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available/portrait_incredible.jpg">
+    </div>
+    <div class="details text-white">
+        <h2>Brnad Name<br><span>Men's Designer T-Shirt</span></h2>
+        <div class="price">$55.99</div>
+    </div>
+</div> -->
+
+
+<div class="container-fluid">
+    <h1 class="text-white">{{title}}</h1>
+</div>
+<owl-carousel-o [options]="customOptions">
+    <ng-template carouselSlide *ngFor="let data of dataList">
+        <div class="item">
+            <img src="{{data.thumbnail.path}}/portrait_incredible.{{data.thumbnail.extension}}" class="img-fluid" alt="">
+            <span class="content-text text-white">
+                <a href="">{{data.title}}{{data.name}}{{data.fullName}}<br></a>
+                <!-- <span class="favorites"><a (click)="addToFavorites(data)">Add to Favorites</a></span> -->
+            </span>
+            <span class="content-overlay">
+                <span class="content">
+                    <i *ngIf="!ids.includes(data.id)" (click)="addToFavorites(data)" class="fas fa-bookmark"></i>
+                    <i *ngIf="ids.includes(data.id)" (click)="addToFavorites(data)" class="fas fa-bookmark marked"></i>
+                </span>
+            </span>
+        </div>
+    </ng-template>
+</owl-carousel-o>

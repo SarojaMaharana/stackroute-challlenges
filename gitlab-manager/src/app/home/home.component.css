@@ -1,0 +1,31 @@
+table {
+  width: 100%;
+}
+.mat-elevation-z8 {
+  padding: 20px;
+}
+.fas {
+  /* margin-right: 5px; */
+  padding-right: 5px;
+}
+.far {
+  /* margin-right: 5px; */
+  padding-right: 5px;
+}
+.example-form-field {
+  width: 200px;
+}
+.namespace a {
+  color: #000000;
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  .icons {
+    display: none !important;
+  }
+}
+@media (max-width: 576px) {
+  .update-time {
+    display: none !important;
+  }
+}

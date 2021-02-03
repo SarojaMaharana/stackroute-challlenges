@@ -1,0 +1,22 @@
+2020-12-31 18:59:28 [main] WARN  o.s.data.convert.CustomConversions -
+				Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2020-12-31 18:59:29 [main] WARN  o.s.data.convert.CustomConversions -
+				Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2020-12-31 18:59:29 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -
+				Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'newsController' defined in file [C:\Users\meher\Documents\Challenges\newzapp-final-integration\backend\NewsService\target\classes\com\stackroute\newz\controller\NewsController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.stackroute.newz.service.NewsService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2020-12-31 18:59:29 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter -
+				
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.stackroute.newz.controller.NewsController required a bean of type 'com.stackroute.newz.service.NewsService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.stackroute.newz.service.NewsService' in your configuration.
+

@@ -1,0 +1,23 @@
+{
+  "name": "js-exercise-16",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --watch",
+    "start": "json-server db.json",
+    "eslint": "./node_modules/.bin/eslint ./public/js/*.js ./test/*.js"
+  },
+  "author": "Somsubhra Mukherjee",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^4.19.1",
+    "fetch-mock": "^6.5.2",
+    "jsdom": "~8.0.4",
+    "json-server": "^0.12.2",
+    "mocha": "^5.2.0",
+    "mocha-jsdom": "~1.1.0",
+    "node-fetch": "^2.6.0"
+  }
+}

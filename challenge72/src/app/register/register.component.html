@@ -1,0 +1,74 @@
+<div class="container py-5">
+    <div class="text-center">
+        <div class="mat-display-3">Sign Up</div>
+    </div>
+    <div class="form text-center">
+        <form action="#">
+            <mat-form-field class = "full-width">
+                <mat-label>Email Address</mat-label>
+                <input type="email" matInput>
+            </mat-form-field>
+            <table class="full-width" cellspacing = "0">
+                <tr>
+                    <td>
+                        <mat-form-field class = "full-width">
+                            <mat-label>Username</mat-label>
+                            <input type="text" matInput>
+                            <mat-hint align = "start">alphanumeric value</mat-hint>
+                        </mat-form-field>
+                    </td>
+                    <td>
+                        <mat-form-field class = "full-width">
+                            <mat-label>Password</mat-label>
+                            <input type="password" matInput>
+                            <mat-hint align = "start">minimum 8 charaacters</mat-hint>
+                        </mat-form-field>
+                    </td>
+                </tr>
+            </table>
+            <table class="full-width" cellspacing = "0">
+                <tr>
+                    <td>
+                        <mat-form-field class = "full-width">
+                            <mat-label>First Name</mat-label>
+                            <input type="text" matInput>
+                        </mat-form-field>
+                    </td>
+                    <td>
+                        <mat-form-field class = "full-width">
+                            <mat-label>Last Name</mat-label>
+                            <input type="text" matInput>
+                        </mat-form-field>
+                    </td>
+                </tr>
+            </table>
+            <mat-form-field class = "full-width">
+                <mat-label>Address</mat-label>
+                <textarea matInput></textarea>
+            </mat-form-field>
+            <table class="full-width" cellspacing = "0">
+                <tr>
+                    <td>
+                        <mat-form-field class = "full-width">
+                            <mat-label>City</mat-label>
+                            <input type="text" matInput>
+                        </mat-form-field>
+                    </td>
+                    <td>
+                        <mat-form-field class = "full-width">
+                            <mat-label>State</mat-label>
+                            <input type="text" matInput>
+                        </mat-form-field>
+                    </td>
+                    <td>
+                        <mat-form-field class = "full-width">
+                            <mat-label>Postal Code</mat-label>
+                            <input type="number" matInput>
+                        </mat-form-field>
+                    </td>
+                </tr>
+            </table>
+            <button mat-raised-button class="btn">Sign Up</button>
+        </form>
+    </div>
+</div>

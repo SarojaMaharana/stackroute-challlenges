@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="UserProfileService" />
+        <module name="NewsService" />
+        <module name="NewsSourceService" />
+        <module name="AuthenticationService" />
+        <module name="newz-netflix-eureka-server" />
+        <module name="newz-netflix-zuul-api-gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AuthenticationService" target="11" />
+      <module name="NewsService" target="11" />
+      <module name="NewsSourceService" target="11" />
+      <module name="newz-netflix-eureka-server" target="11" />
+      <module name="newz-netflix-zuul-api-gateway" target="11" />
+      <module name="UserProfileService" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="AuthenticationService" options="-parameters" />
+      <module name="NewsService" options="-parameters" />
+      <module name="NewsSourceService" options="-parameters" />
+      <module name="UserProfileService" options="-parameters" />
+      <module name="newz-netflix-eureka-server" options="-parameters" />
+      <module name="newz-netflix-zuul-api-gateway" options="-parameters" />
+    </option>
+  </component>
+</project>

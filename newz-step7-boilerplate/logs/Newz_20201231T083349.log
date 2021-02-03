@@ -1,0 +1,192 @@
+2020-12-31 08:34:05 [main] WARN  c.n.c.sources.URLConfigurationSource -
+				No URLs will be polled as dynamic configuration sources.
+2020-12-31 08:34:05 [main] WARN  c.n.c.sources.URLConfigurationSource -
+				No URLs will be polled as dynamic configuration sources.
+2020-12-31 08:34:10 [main] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger -
+				You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-12-31 08:34:28 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:34:37 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:34:46 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:34:56 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:35:05 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-5] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:35:14 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-6] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:35:23 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-7] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:35:32 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-8] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:35:42 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-9] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:35:51 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-10] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:36:00 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-11] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:36:09 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-12] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:36:18 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-13] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:36:27 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-14] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:36:37 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-15] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:36:46 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-16] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:36:55 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-17] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:37:04 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-18] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:37:13 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-19] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:37:22 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-20] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:37:32 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-21] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:37:41 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-22] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:37:50 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-23] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:37:59 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-24] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:38:08 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-25] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:38:18 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-26] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:38:27 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-27] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:38:36 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-28] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:38:45 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-29] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:38:54 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-30] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:39:04 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-31] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:39:13 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-32] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:39:22 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-33] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:39:31 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-34] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:39:40 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-35] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:39:50 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-36] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:39:59 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-37] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:40:08 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-38] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:40:17 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-39] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:40:26 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-40] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:40:35 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-41] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:40:45 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-42] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:40:54 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-43] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:41:03 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-44] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:41:12 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-45] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:41:21 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-46] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:41:30 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-47] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:41:40 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-48] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:41:49 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-49] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:41:58 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-50] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:42:07 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-51] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:42:16 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-52] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:42:26 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-53] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:42:35 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-54] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:42:44 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-55] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:42:53 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-56] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:43:02 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-57] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:43:12 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-58] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:43:21 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-59] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:43:30 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-60] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:43:39 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-61] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:43:48 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-62] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:43:57 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-63] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:44:07 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-64] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:44:16 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-65] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:44:25 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-66] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:44:34 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-67] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:44:43 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-68] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:44:52 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-69] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:45:02 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-70] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:45:11 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-71] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:45:20 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-72] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:45:29 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-73] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:45:38 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-74] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:45:48 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-75] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:45:57 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-76] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:46:06 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-77] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:46:15 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-78] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:46:22 [http-nio-8081-exec-1] WARN  o.s.web.servlet.PageNotFound -
+				No mapping for GET /swagger-ui.html
+2020-12-31 08:46:22 [http-nio-8081-exec-4] WARN  o.s.web.servlet.PageNotFound -
+				No mapping for GET /favicon.ico
+2020-12-31 08:46:24 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-79] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:46:33 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-80] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:46:38 [http-nio-8081-exec-5] WARN  o.s.web.servlet.PageNotFound -
+				No mapping for GET /swagger-ui.html
+2020-12-31 08:46:42 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-81] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:46:52 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-82] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:47:01 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-83] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:47:10 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-84] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:47:19 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-85] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:47:28 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-86] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2020-12-31 08:47:33 [http-nio-8081-exec-8] WARN  o.s.web.servlet.PageNotFound -
+				No mapping for GET /swagger-ui.html
+2020-12-31 08:47:34 [http-nio-8081-exec-9] WARN  o.s.web.servlet.PageNotFound -
+				No mapping for GET /swagger-ui.html
+2020-12-31 08:47:34 [http-nio-8081-exec-3] WARN  o.s.web.servlet.PageNotFound -
+				No mapping for GET /swagger-ui.html
+2020-12-31 08:47:38 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-87] WARN  o.s.a.r.l.SimpleMessageListenerContainer -
+				Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information

@@ -1,0 +1,62 @@
+<div class="container">
+  <header class="blog-header py-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      <div class="col-4 pt-1">
+        <!-- <a class="link-secondary" href="#">Subscribe</a> -->
+      </div>
+      <div class="col-4 text-center">
+        <a
+          class="blog-header-logo text-dark"
+          [routerLink]="['/']"
+          routerLinkActive="router-link-active"
+          >Newz</a
+        >
+      </div>
+      <div class="col-4 d-flex justify-content-end align-items-center">
+        <div class="dropdown">
+          <img
+            src="https://www.flaticon.com/svg/static/icons/svg/2922/2922506.svg"
+            alt="user-image"
+            class="rounded-circle border dropdown-toggle"
+            id="dropdownMenuButton"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+            width="40px"
+          />
+          <div
+            class="dropdown-menu dropdown-menu-right"
+            aria-labelledby="dropdownMenuButton"
+          >
+            <a
+              class="dropdown-item"
+              [routerLink]="['/news/user-profile']"
+              routerLinkActive="router-link-active"
+              >My Profile</a
+            >
+            <a
+              class="dropdown-item"
+              [routerLink]="['/news']"
+              routerLinkActive="router-link-active"
+              >View News</a
+            >
+            <a
+              class="dropdown-item"
+              [routerLink]="['/news/add-news']"
+              routerLinkActive="router-link-active"
+              >Add News</a
+            >
+            <a class="dropdown-item" (click)="logout()">Logout</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+</div>
+<main class="container">
+  <div class="p-4 p-md-5 mb-4 text-dark rounded bg-white border rounded">
+    <div class="col-md-6 px-0">
+      <h1 class="display-4 font-italic">Welcome {{ userName }}</h1>
+    </div>
+  </div>
+</main>

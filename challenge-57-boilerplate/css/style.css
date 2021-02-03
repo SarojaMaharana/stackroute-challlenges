@@ -1,0 +1,100 @@
+body {
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+h1 {
+  color: #4c0101;
+}
+header {
+  background-image: linear-gradient(to right, #4c0101, #c00505);
+  padding: 10px;
+  color: #ffffff;
+}
+.navbar {
+  float: right;
+  width: 500px;
+  text-align: right;
+}
+header nav a {
+  margin-right: 10px;
+}
+header nav p a:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+header nav a:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+header nav a:hover {
+  color: limegreen;
+}
+.main-section {
+  width: 100%;
+  margin: 0;
+  position: relative;
+}
+.main-section p {
+  text-align: justify;
+}
+.column {
+  float: left;
+}
+.left {
+  width: 75%;
+}
+.right {
+  width: 25%;
+}
+.main-row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.main-row p {
+  color: #4c0101;
+}
+.sub-column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+.sub-column p {
+  text-align: center;
+}
+.sub-column img {
+  border: solid 5px #ffffff;
+  border-radius: 5px;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+}
+.sub-row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.button {
+  display: block;
+  width: 90%;
+  height: 25px;
+  background: #4c0101;
+  padding: 15px;
+  text-align: left;
+  /* border-radius: 5px; */
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.column a:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+.column a:hover {
+  color: lime;
+}
+footer {
+  background-color: #4c0101;
+  padding: 20px;
+  color: #ffffff;
+}

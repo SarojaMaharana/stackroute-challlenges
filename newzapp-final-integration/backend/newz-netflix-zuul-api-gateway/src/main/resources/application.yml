@@ -1,0 +1,27 @@
+eureka:
+  client:
+    serviceUrl:
+      default-zone: ${EUREKA_SERVER:http://localhost:8761/eureka}
+    fetchRegistry: true
+    registerWithEureka: true
+
+spring:
+  application:
+    name: newz-nexflix-zuul-api-gateway
+server:
+  port: 8091
+
+zuul:
+  host:
+    connect-timeout-millis: 60000
+    socket-timeout-millis: 60000
+  routes:
+    authenticationservice:
+      serviceId: authentication-service
+    newsservice:
+      serviceId: news-service
+    newssourceservice:
+      serviceId: newssource-service
+    userprofileservice:
+      serviceId: userprofile-service
+  ignored-headers: Access-Control-Allow-Credentials, Access-Control-Allow-Origin

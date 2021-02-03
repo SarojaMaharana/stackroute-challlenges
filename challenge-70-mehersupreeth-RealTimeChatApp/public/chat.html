@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RealTime Chat</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/chat.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row" id="mca_app">
+            <section class="col-12" id="mca_side_bar">
+                <div class="chat_profile">
+                    <img src="https://www.flaticon.com/svg/static/icons/svg/21/21104.svg" alt="">
+                    <span>Profile</span>
+                </div>
+                <div class="chat_menu">
+                    <ul>
+                        <li class="active">
+                            <i class="fa fa-bell"></i>
+                        </li>
+                        <li>
+                            <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Show the users in this channel"><i class="fas fa-users"></i></a>
+                            <div class="dropdown-menu" id="usersInChannel">
+                                <p>dfsfs</p>
+                                <p>dfgshtb</p>
+                            </div>
+                        </li>
+                        <li><i class="fa fa-compass"></i></li>
+                        <li><i class="fa fa-envelope"></i></li>
+                    </ul>
+                </div>
+                <div class="chat_bar">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </section>
+            <section class="col-12" id="mca_header_bar">
+                <div class="row">
+                    <div class="col-8">
+                        <i class="fa fa-chevron-left"></i>
+                        <span class="name" id="user-name"></span>
+                    </div>
+                    <div class="col-4">
+                        <span><a href="./index.html" class="fas fa-sign-out-alt" title="Leave the channel"></a></span>
+                    </div>
+                </div>
+            </section>
+            <scetion class="col-12" id="mca_body">
+                <div>
+                    <ul id="messages_entry_point">
+                        <li>
+                            <span>Today</span>
+                        </li>
+                    </ul>
+                    <!-- <ul>
+                        <li>
+                            <span>Today 17:20</span>
+                        </li>
+                        <li>
+                            <span>Good Evening Friend</span>
+                        </li>
+                        <li>
+                            <span>Very Good Evening</span>
+                        </li>
+                        <li>
+                            <span>
+                                <i class="fa fa-circle"></i>
+                                <i class="fa fa-circle"></i>
+                                <i class="fa fa-circle"></i>
+                            </span>
+                        </li>
+                    </ul> -->
+                </div>
+            </scetion>
+            <section class="col-12" id="mca_footer">
+                <div class="row mca_input_row">
+                    <div class="col-12">
+                        <form id="mca_form">
+                            <input type="text" id="msg" class="mca_ip" placeholder="Enter message here...">
+                            <button class="fa fa-paper-plane"></button>
+                            <!-- <a class="fa fa-paper-plane"></a> -->
+                            <!-- <i class="fa fa-paper-plane"></i> -->
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- Jquery, Popper, Bootstrap JS files -->
+    <script src="jquery/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Socket IO -->
+    <script src="socket.io-client/dist/socket.io.js"></script>
+    <!-- Custom Java Script -->
+    <script src="./js/script.js"></script>
+</body>
+</html>

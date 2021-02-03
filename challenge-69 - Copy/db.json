@@ -1,0 +1,180 @@
+{
+  "movies": [
+    {
+      "title": "8 Mile",
+      "posterPath": "images/8Mile.jpg",
+      "favourite": "false",
+      "id": 101
+    },
+    {
+      "title": "Aravinda Sametha",
+      "posterPath": "images/AravindaSametha.jpg",
+      "favourite": "false",
+      "id": 102
+    },
+    {
+      "title": "Badmaash Company",
+      "posterPath": "images/BadmaashCompany.jpg",
+      "favourite": "false",
+      "id": 103
+    },
+    {
+      "id": 104,
+      "title": "Bodyguard",
+      "posterPath": "images/Bodyguard.jpg",
+      "favourite": "false"
+    },
+    {
+      "id": 105,
+      "title": "Borat Subsequent",
+      "posterPath": "images/BoratSubsequent.jpg",
+      "favourite": "false"
+    },
+    {
+      "id": 106,
+      "title": "Captain America",
+      "posterPath": "images/CaptainAmerica.jpg",
+      "favourite": "false"
+    },
+    {
+      "id": 107,
+      "title": "Captain America 2",
+      "posterPath": "images/CaptainAmerica2.jpg",
+      "favourite": "false"
+    },
+    {
+      "title": "Criminal Justice",
+      "posterPath": "images/CriminalJustice.jpg",
+      "id": 108,
+      "favourite": "false"
+    },
+    {
+      "id": 109,
+      "title": "High Life",
+      "posterPath": "images/HighLife.jpg",
+      "favourite": "false"
+    },
+    {
+      "id": 110,
+      "title": "I Am Legend",
+      "posterPath": "images/IAmLegend.jpg",
+      "favourite": "false"
+    },
+    {
+      "id": 111,
+      "title": "Kismat Konnection",
+      "posterPath": "images/KismatKonnection.jpg",
+      "favourite": "false"
+    },
+    {
+      "id": 112,
+      "title": "Man of Steel",
+      "posterPath": "images/ManofSteel.jpg",
+      "favourite": "false"
+    },
+    {
+      "id": 113,
+      "title": "Mirzapur",
+      "posterPath": "images/Mirzapur.jpg",
+      "favourite": "false"
+    },
+    {
+      "id": 114,
+      "title": "Shakuntala Devi",
+      "posterPath": "images/ShakuntalaDevi.jpg",
+      "favourite": "false"
+    },
+    {
+      "id": 115,
+      "title": "Supergirl",
+      "posterPath": "images/Supergirl.jpg",
+      "favourite": "false"
+    },
+    {
+      "id": 116,
+      "title": "The Conjuring",
+      "posterPath": "images/TheConjuring.jpg",
+      "favourite": "false"
+    },
+    {
+      "id": 117,
+      "title": "The Conjuring 2",
+      "posterPath": "images/TheConjuring2.jpg",
+      "favourite": "false"
+    },
+    {
+      "id": 118,
+      "title": "The Death and Return of Superman",
+      "posterPath": "images/TheDeathandReturnofSuperman.jpg",
+      "favourite": "false"
+    },
+    {
+      "id": 119,
+      "title": "The Originals",
+      "posterPath": "images/TheOriginals.jpg",
+      "favourite": "false"
+    },
+    {
+      "id": 120,
+      "title": "Unsolved Mysteries",
+      "posterPath": "images/UnsolvedMysteries.jpg",
+      "favourite": "false"
+    },
+    {
+      "title": "Thomas & Friends",
+      "posterPath": "https://torrentcounters.com/wp-content/uploads/2020/10/HoIkuwOxVyO6VdSKjwgAuFBuez-185x278.jpg",
+      "id": 121,
+      "favourite": "false"
+    },
+    {
+      "title": "Titanic",
+      "posterPath": "https://torrentcounters.com/wp-content/uploads/2020/10/9xjZS2rlVxm8SFx8kPC3aIGCOYQ-185x278.jpg",
+      "id": 122,
+      "favourite": "false"
+    },
+    {
+      "title": "Khuda Haafiz",
+      "posterPath": "https://torrentcounters.com/wp-content/uploads/2020/09/jc7rBpjqBmwmjdUgYDk2P3TzOjR-185x278.jpg",
+      "id": 123,
+      "favourite": "false"
+    },
+    {
+      "title": "Project Power",
+      "posterPath": "https://torrentcounters.com/wp-content/uploads/2020/08/bOKjzWDxiDkgEQznhzP4kdeAHNI-185x278.jpg",
+      "id": 124,
+      "favourite": "false"
+    },
+    {
+      "title": "Class of ’83",
+      "posterPath": "https://torrentcounters.com/wp-content/uploads/2020/08/2CFOpEKVxIjRMeu8K9agmDZ2ms9-185x278.jpg",
+      "id": 125,
+      "favourite": "false"
+    },
+    {
+      "title": "Fearless",
+      "posterPath": "https://torrentcounters.com/wp-content/uploads/2020/08/5oQJ6HeNGWnEtP9Qyt5IZjuKI7j-185x278.jpg",
+      "id": 126,
+      "favourite": "false"
+    },
+    {
+      "title": "She Dies Tomorrow",
+      "posterPath": "https://torrentcounters.com/wp-content/uploads/2020/09/zzFftAIaCkNDt8TL4yQN8RweLrw-185x278.jpg",
+      "id": 127,
+      "favourite": "false"
+    },
+    {
+      "title": "Gunjan Saxena",
+      "posterPath": "https://torrentcounters.com/wp-content/uploads/2020/08/llWz6LbVpGPChnNnhAiGJyPMDwP-185x278.jpg",
+      "favourite": "false",
+      "id": 128
+    }
+  ],
+  "favourites": [
+    {
+      "id": 128,
+      "title": "Gunjan Saxena",
+      "posterPath": "https://torrentcounters.com/wp-content/uploads/2020/08/llWz6LbVpGPChnNnhAiGJyPMDwP-185x278.jpg",
+      "favourite": "true"
+    }
+  ]
+}

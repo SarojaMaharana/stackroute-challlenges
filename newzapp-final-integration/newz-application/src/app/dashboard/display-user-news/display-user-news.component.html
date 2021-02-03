@@ -1,0 +1,79 @@
+<div class="container">
+  <div class="row mb-2">
+    <div class="col-md-6" *ngFor="let news of newsList">
+      <div
+        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+      >
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-primary">World</strong>
+          <h3 class="mb-0" style="height: 35px; overflow: hidden">
+            {{ news.title }}
+          </h3>
+          <div class="mb-1 text-muted">
+            {{ news.publishedAt[0] }}/{{ news.publishedAt[1] }}/{{
+              news.publishedAt[2]
+            }}
+          </div>
+          <p
+            class="mb-auto"
+            style="height: 125px; overflow: hidden; text-overflow: ellipsis"
+          >
+            {{ news.description }}
+          </p>
+          <div class="row">
+            <div class="col-6">
+              <a
+                [routerLink]="['/news/edit-news', news.newsId]"
+                routerLinkActive="router-link-active"
+                class="float-left"
+                ><i class="fas fa-pencil-alt"></i
+              ></a>
+            </div>
+            <div class="col-6">
+              <a class="float-right" (click)="deleteNews(news.newsId)">
+                <i class="fas fa-trash"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-auto d-none d-lg-block">
+          <img
+            src="{{ news.urlToImage }}"
+            alt=""
+            style="object-fit: cover; width: 266px; height: 300px"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div
+        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+      >
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-success">Design</strong>
+          <h3 class="mb-0">Post title</h3>
+          <div class="mb-1 text-muted">Nov 11</div>
+          <p
+            class="mb-auto"
+            style="height: 131px; overflow: hidden; text-overflow: ellipsis"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+            temporibus, at, atque accusantium voluptas ea earum cum officia
+            voluptate harum, quisquam quo nihil vel rem dolores quia repellendus
+            nisi nobis.
+          </p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <img
+            src="https://images.indianexpress.com/2020/12/Modi-21.jpg"
+            alt=""
+            style="object-fit: cover; width: 266px; height: 300px"
+          />
+          <!-- <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

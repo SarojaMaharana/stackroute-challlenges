@@ -1,0 +1,18 @@
+{
+  "name": "realtimechat",
+  "version": "1.0.0",
+  "description": "realtime chat app with channels",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "meher supreeth",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "4.5.2",
+    "jquery": "3.5.1",
+    "express": "4.17.1",
+    "socket.io": "2.3.0",
+    "moment": "2.29.0"
+  }
+}

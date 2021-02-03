@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript Assignment</title>
+	<link rel="stylesheet" type="text/css" href="/node_modules/bootstrap/dist/css/bootstrap.min.css" />
+	
+	<style>
+	section {
+		margin: 2em;
+	}
+
+	form {
+		margin: 2em;
+	}
+</style>
+</head>
+<body>
+	<section class="card">
+		<div class="card-header d-flex flex-row">
+			<h4 class="col">Issues Summary</h4>
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#open-button">Open</button>
+		</div>
+		<table class="table table-striped" id="table">
+			<thead>
+				<tr>
+					<th></th>
+					<th>total</th>
+					<th>open</th>
+					<th>my_issues</th>
+				</tr>
+			</thead>
+			<tbody id="table-body">
+				<tr>
+					<th>sagar.patke/bootstrap-assignment</th>
+					<td>5</td>
+					<td>2</td>
+					<td>2</td>
+				</tr>
+				<tr>
+					<th>sagar.patke/javascript-assignment</th>
+					<td>6</td>
+					<td>3</td>
+					<td>1</td>
+				</tr>
+				<tr>
+					<th>sagar.patke/angular-assignment</th>
+					<td>4</td>
+					<td>1</td>
+					<td>0</td>
+				</tr>
+				<tr>
+					<th>sagar.patke/java-assignment</th>
+					<td>7</td>
+					<td>4</td>
+					<td>3</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+	<section>
+		<div class="modal fade" id="open-button" tabindex="-1" aria-labelledby="modelLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="modelLabel">Add Issues</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<form>
+							<div class="form-group">
+								<label for="repositoryInput">Repository</label>
+								<input type="text" class="form-control" id="repositoryInput" placeholder="Type repository name here">
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary" id="add-repository-button">Add Issue</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="card">
+		<h4 class="card-header">Explore</h4>
+		<form>
+			<div class="form-group">
+				<label for="countQueryRepositoryInput">Repository</label>
+				<input type="text" class="form-control" id="countQueryRepositoryInput" placeholder="Type repository name here">
+			</div>
+			<div class="form-group">
+				<label for="countQueryIssueType">Count</label>
+				<select name="" id="countQueryIssueType" class="form-control">
+					<option value="total">Total</option>
+					<option value="open">Open</option>
+					<option value="issues">My_Issues</option>
+				</select>
+			</div>
+			<input type="submit" value="Go!" class="btn btn-primary" id="go-button">
+			<span id="count"></span>
+		</form>
+	</section>
+	
+	<script type="text/javascript" src="./main.js"></script>
+	<script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>

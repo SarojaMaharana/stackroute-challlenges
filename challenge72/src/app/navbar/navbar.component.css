@@ -1,0 +1,20 @@
+.navbar {
+  justify-content: space-between;
+  font-family: "Raleway", sans-serif;
+}
+.navbar .navbarBrand {
+  font-size: 1.25rem;
+}
+.navbar .navbarItems a {
+  font-size: 0.9rem;
+  text-decoration: none;
+  padding: 1rem;
+  color: #00000080;
+}
+.navbar .navbarItems a.active {
+  color: #000000e6;
+}
+.navbar .navbarItems a:hover {
+  background-color: #262626;
+  color: #fff;
+}

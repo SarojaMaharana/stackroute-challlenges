@@ -1,0 +1,29 @@
+1. Building a server
+2. Establishing a connection with the server
+3. Node and Express -> handle any kind of functionality
+
+npm init -> 
+npm init -y -> automatically
+npm install ->
+
+node -> a runtime provided to run js code without a browser, v8 engine of chrome
+npm -> node package manager -> classes, libraries, packages to add functionality
+npm install json-server
+npm install live-server
+
+node js -> installation
+
+package.json -> manifest file -> entry point which contains information about the application
+
+start a server -> google.com
+1. a html page rendered - static 
+2. routing, db-> middle ware operations
+
+
+can be done on this node server
+express js -> webframework -> handling events on the server
+
+
+
+
+

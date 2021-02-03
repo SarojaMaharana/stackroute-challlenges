@@ -1,0 +1,9 @@
+footer {
+  background: var(--gradient-color);
+}
+footer p {
+  font-family: var(--pacifico);
+  color: whitesmoke;
+  font-size: large;
+  letter-spacing: 2px;
+}

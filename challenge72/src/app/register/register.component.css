@@ -1,0 +1,22 @@
+.container {
+  font-family: "Raleway", sans-serif;
+}
+.form {
+  width: 50%;
+  margin: auto;
+}
+.full-width {
+  width: 100%;
+}
+.btn {
+  background-color: #000;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+}
+.btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+td {
+  padding-right: 8px;
+}

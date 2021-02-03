@@ -1,0 +1,106 @@
+2021-01-05 10:55:14 [background-preinit] INFO  o.h.validator.internal.util.Version -
+				HV000001: Hibernate Validator 6.1.6.Final
+2021-01-05 10:55:14 [main] INFO  c.s.u.UserProfileServiceApplication -
+				Starting UserProfileServiceApplication using Java 15 on DESKTOP-57R2BJ5 with PID 13904 (C:\Users\meher\Documents\Challenges\backend\UserProfileService\target\classes started by meher in C:\Users\meher\Documents\Challenges\backend)
+2021-01-05 10:55:14 [main] INFO  c.s.u.UserProfileServiceApplication -
+				No active profile set, falling back to default profiles: default
+2021-01-05 10:55:17 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-01-05 10:55:17 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 339 ms. Found 1 MongoDB repository interfaces.
+2021-01-05 10:55:17 [main] INFO  o.s.cloud.context.scope.GenericScope -
+				BeanFactory id=3aa92697-4796-3afc-918c-1ae0ea4ee2c3
+2021-01-05 10:55:19 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port(s): 8084 (http)
+2021-01-05 10:55:19 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8084"]
+2021-01-05 10:55:19 [main] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2021-01-05 10:55:19 [main] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-05 10:55:19 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2021-01-05 10:55:19 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 4756 ms
+2021-01-05 10:55:20 [main] INFO  org.mongodb.driver.cluster -
+				Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-01-05 10:55:20 [cluster-rtt-ClusterId{value='5ff3f840ec8eb342a4ee0caa', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:1, serverValue:6}] to localhost:27017
+2021-01-05 10:55:20 [cluster-ClusterId{value='5ff3f840ec8eb342a4ee0caa', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:2, serverValue:5}] to localhost:27017
+2021-01-05 10:55:20 [cluster-ClusterId{value='5ff3f840ec8eb342a4ee0caa', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster -
+				Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=46958900}
+2021-01-05 10:55:20 [main] WARN  o.s.data.convert.CustomConversions -
+				Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-01-05 10:55:21 [main] WARN  o.s.data.convert.CustomConversions -
+				Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-01-05 10:55:22 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping -
+				Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-05 10:55:24 [main] INFO  o.s.cloud.commons.util.InetUtils -
+				Cannot determine local hostname
+2021-01-05 10:55:24 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration -
+				Eureka HTTP Client uses RestTemplate.
+2021-01-05 10:55:25 [main] INFO  o.s.cloud.commons.util.InetUtils -
+				Cannot determine local hostname
+2021-01-05 10:55:26 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger -
+				Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2021-01-05 10:55:26 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory -
+				Setting initial instance status as: STARTING
+2021-01-05 10:55:26 [main] INFO  c.netflix.discovery.DiscoveryClient -
+				Initializing Eureka in region us-east-1
+2021-01-05 10:55:26 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2021-01-05 10:55:26 [main] INFO  c.netflix.discovery.DiscoveryClient -
+				Disable delta property : false
+2021-01-05 10:55:26 [main] INFO  c.netflix.discovery.DiscoveryClient -
+				Single vip registry refresh property : null
+2021-01-05 10:55:26 [main] INFO  c.netflix.discovery.DiscoveryClient -
+				Force full registry fetch : false
+2021-01-05 10:55:26 [main] INFO  c.netflix.discovery.DiscoveryClient -
+				Application is null : false
+2021-01-05 10:55:26 [main] INFO  c.netflix.discovery.DiscoveryClient -
+				Registered Applications size is zero : true
+2021-01-05 10:55:26 [main] INFO  c.netflix.discovery.DiscoveryClient -
+				Application version is -1: true
+2021-01-05 10:55:26 [main] INFO  c.netflix.discovery.DiscoveryClient -
+				Getting all instance registry info from the eureka server
+2021-01-05 10:55:26 [main] INFO  c.netflix.discovery.DiscoveryClient -
+				The response status is 200
+2021-01-05 10:55:26 [main] INFO  c.netflix.discovery.DiscoveryClient -
+				Starting heartbeat executor: renew interval is: 30
+2021-01-05 10:55:26 [main] INFO  c.n.discovery.InstanceInfoReplicator -
+				InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-01-05 10:55:26 [main] INFO  c.netflix.discovery.DiscoveryClient -
+				Discovery Client initialized at timestamp 1609824326936 with initial instances count: 1
+2021-01-05 10:55:26 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Registering application USERPROFILE-SERVICE with eureka with status UP
+2021-01-05 10:55:26 [main] INFO  c.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1609824326947, current=UP, previous=STARTING]
+2021-01-05 10:55:26 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_USERPROFILE-SERVICE/localhost:userprofile-service:8084: registering service...
+2021-01-05 10:55:26 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8084"]
+2021-01-05 10:55:27 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port(s): 8084 (http) with context path ''
+2021-01-05 10:55:27 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration -
+				Updating port to 8084
+2021-01-05 10:55:27 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_USERPROFILE-SERVICE/localhost:userprofile-service:8084 - registration status: 204
+2021-01-05 10:55:28 [main] INFO  o.s.cloud.commons.util.InetUtils -
+				Cannot determine local hostname
+2021-01-05 10:55:28 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -
+				Context refreshed
+2021-01-05 10:55:28 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -
+				Found 1 custom documentation plugin(s)
+2021-01-05 10:55:28 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner -
+				Scanning for api listing references
+2021-01-05 10:55:28 [main] INFO  c.s.u.UserProfileServiceApplication -
+				Started UserProfileServiceApplication in 17.025 seconds (JVM running for 18.743)
+2021-01-05 10:55:51 [http-nio-8084-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-05 10:55:51 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
+				Initializing Servlet 'dispatcherServlet'
+2021-01-05 10:55:51 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
+				Completed initialization in 3 ms
+2021-01-05 10:55:51 [http-nio-8084-exec-1] WARN  o.s.web.servlet.PageNotFound -
+				No mapping for GET /swagger-ui.html

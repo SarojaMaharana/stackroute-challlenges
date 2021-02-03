@@ -1,0 +1,21 @@
+image: maven:latest
+
+services:
+  - mongo:latest
+variables:
+  MONGO_USER: root
+  MONGO_PASSWORD: admin
+  MONGO_HOST: mongo
+build:
+  stage: build
+  tags:
+    - immersive
+  script:
+    - mvn compile
+
+test:
+  stage: test
+  tags:
+    - immersive
+  script:
+    - mvn test

@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "marvel-comics-app-ef382": {
+      "hosting": {
+        "marvel-comics": [
+          "marvel-comics-app-ef382"
+        ]
+      }
+    }
+  }
+}

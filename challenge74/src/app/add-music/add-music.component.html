@@ -1,0 +1,29 @@
+<style>
+    * {
+        font-family: "Mulish", sans-serif;
+    }
+</style>
+<div class="container pt-4">
+    <!-- <form> -->
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputAlbum" [style.color] = "nameBorderColor">Album Name</label>
+                <!-- <input #nameRef type="text" class="form-control" id="inputAlbum" aria-describedby = "nameHelp" (change) = onNameChange($event) [style.border-color] = "nameBorderColor" [value] = "m.albumTitle"> -->
+                <input #nameRef type="text" [(ngModel)]="m.albumTitle" class="form-control" id="inputAlbum" aria-describedby = "nameHelp" [style.border-color] = "nameBorderColor">
+                <small id="nameHelp" class="form-text text-danger" [style.display] = "nameDisplayStyle">Please fill this field!!</small>
+            </div>
+            <div class="form-group col-md-4">
+                <label for="inputCategory" [style.color] = "categoryBorderColor">Category</label>
+                <!-- <select id="inputCategory" class="form-control" aria-describedby = "categoryHelp" (change) = onCategoryChange($event) [style.border-color] = "categoryBorderColor" [value] = "m.albumCategory"> -->
+                <select [(ngModel)]="m.albumCategory" id="inputCategory" class="form-control" aria-describedby = "categoryHelp" [style.border-color] = "categoryBorderColor">
+                    <option selected>Choose...</option>
+                    <option *ngFor="let c of categories" [value] = "c.categoryValue">{{c.categoryName}}</option>
+                </select>
+                <small id="categoryHelp" class="form-text text-danger" [style.display] = "categoryDisplayStyle">Please select the proper category!!</small>
+            </div>
+            <div class="form-group col-md-2 mt-auto text-center">
+                <button type="button" class="btn button primary-button" (click) = addMusicItem()>Add</button>
+            </div>
+        </div>
+    <!-- </form> -->
+</div>

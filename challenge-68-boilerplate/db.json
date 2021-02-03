@@ -1,0 +1,104 @@
+{
+    "moviesList" : [
+        {
+            "id" : 101,
+            "title" : "8 Mile",
+            "posterPath" : "images/8Mile.jpg"
+        },
+        {
+            "id" : 102,
+            "title" : "Aravinda Sametha",
+            "posterPath" : "images/AravindaSametha.jpg"
+        },
+        {
+            "id" : 103,
+            "title" : "Badmaash Company",
+            "posterPath" : "images/BadmaashCompany.jpg"
+        },
+        {
+            "id" : 104,
+            "title" : "Bodyguard",
+            "posterPath" : "images/Bodyguard.jpg"
+        },
+        {
+            "id" : 105,
+            "title" : "Borat Subsequent",
+            "posterPath" : "images/BoratSubsequent.jpg"
+        },
+        {
+            "id" : 106,
+            "title" : "Captain America",
+            "posterPath" : "images/CaptainAmerica.jpg"
+        },
+        {
+            "id" : 107,
+            "title" : "Captain America 2",
+            "posterPath" : "images/CaptainAmerica2.jpg"
+        },
+        {
+            "id" : 108,
+            "title" : "Criminal Justice",
+            "posterPath" : "images/CriminalJustice.jpg"
+        },
+        {
+            "id" : 109,
+            "title" : "High Life",
+            "posterPath" : "images/HighLife.jpg"
+        },
+        {
+            "id" : 110,
+            "title" : "I Am Legend",
+            "posterPath" : "images/IAmLegend.jpg"
+        },
+        {
+            "id" : 111,
+            "title" : "Kismat Konnection",
+            "posterPath" : "images/KismatKonnection.jpg"
+        },
+        {
+            "id" : 112,
+            "title" : "Man of Steel",
+            "posterPath" : "images/ManofSteel.jpg"
+        },
+        {
+            "id" : 113,
+            "title" : "Mirzapur",
+            "posterPath" : "images/Mirzapur.jpg"
+        },
+        {
+            "id" : 114,
+            "title" : "Shakuntala Devi",
+            "posterPath" : "images/ShakuntalaDevi.jpg"
+        },
+        {
+            "id" : 115,
+            "title" : "Supergirl",
+            "posterPath" : "images/Supergirl.jpg"
+        },
+        {
+            "id" : 116,
+            "title" : "The Conjuring",
+            "posterPath" : "images/TheConjuring.jpg"
+        },
+        {
+            "id" : 117,
+            "title" : "The Conjuring 2",
+            "posterPath" : "images/TheConjuring2.jpg"
+        },
+        {
+            "id" : 118,
+            "title" : "The Death and Return of Superman",
+            "posterPath" : "images/TheDeathandReturnofSuperman.jpg"
+        },
+        {
+            "id" : 119,
+            "title" : "The Originals",
+            "posterPath" : "images/TheOriginals.jpg"
+        },
+        {
+            "id" : 120,
+            "title" : "Unsolved Mysteries",
+            "posterPath" : "images/UnsolvedMysteries.jpg"
+        }
+    ]
+}

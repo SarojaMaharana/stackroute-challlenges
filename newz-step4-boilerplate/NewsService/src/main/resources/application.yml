@@ -1,0 +1,21 @@
+spring:
+  data:
+    mongodb:
+#      username: ${MONGO_USER}
+#      password: ${MONGO_PASSWORD}
+      database: ${MONGO_DATABASE:news_service_db}
+      port: ${MONGO_PORT:27017}
+      host: ${MONGO_HOST:localhost}
+
+#spring:
+#  data:
+#    mongodb:
+#      url: ${MONGO_URI:mongodb://localhost:27017/news_service_db}
+#      database: ${MONGO_DATABASE:news_service_db}
+
+server:
+ port: 8081
+
+logging:
+   level:
+    root: DEBUG

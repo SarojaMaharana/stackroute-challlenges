@@ -1,0 +1,51 @@
+# Dockerfile has been added in all micro-services, you need to dockerize all micro-services and add docker-compose.yml file
+version: "3.7"
+
+services:
+  mysql:
+    image: mysql:8.0.22
+    container_name: mysql_container
+    environment:
+      MYSQL_ROOT_PASSWORD: admin
+
+  mongodb:
+    image: mongo:4.4.2-bionic
+    container_name: mongo_container
+
+  userservice:
+    image: supreethmybook/userservice:v0.1
+    container_name: userservice
+    ports:
+      - 8081:8081
+    environment:
+      MYSQL_HOST: mysql
+      MYSQL_DATABASE: mybook_userdb
+    depends_on:
+      - mysql
+    restart: always
+
+  favouriteservice:
+    image: supreethmybook/favouriteservice:v0.1
+    container_name: favouriteservice
+    ports:
+      - 8083:8083
+    environment:
+      MONGO_HOST: mongodb
+      MONGO_DATABASE: mybook_favouritedb
+      MONGO_PORT: 27017
+    depends_on:
+      - mongodb
+    restart: always
+
+  bookservice:
+    image: supreethmybook/bookservice:v0.1
+    container_name: bookservice
+    ports:
+      - 8082:8082
+    environment:
+      MONGO_HOST: mongodb
+      MONGO_DATABASE: newssource_service_db
+      MONGO_PORT: 27017
+    depends_on:
+      - mongodb
+    restart: always

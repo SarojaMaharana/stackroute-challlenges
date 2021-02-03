@@ -1,0 +1,252 @@
+{
+    "categories": {
+        "href": "https://api.spotify.com/v1/browse/categories?country=IN&offset=0&limit=20",
+        "items": [
+            {
+                "href": "https://api.spotify.com/v1/browse/categories/toplists",
+                "icons": [
+                    {
+                        "height": 275,
+                        "url": "https://t.scdn.co/media/derived/toplists_11160599e6a04ac5d6f2757f5511778f_0_0_275_275.jpg",
+                        "width": 275
+                    }
+                ],
+                "id": "toplists",
+                "name": "Top Lists"
+            },
+            {
+                "href": "https://api.spotify.com/v1/browse/categories/diwali",
+                "icons": [
+                    {
+                        "height": null,
+                        "url": "https://t.scdn.co/images/f2792f4efba9405887f172de966df356.jpeg",
+                        "width": null
+                    }
+                ],
+                "id": "diwali",
+                "name": "Diwali"
+            },
+            {
+                "href": "https://api.spotify.com/v1/browse/categories/bollywood",
+                "icons": [
+                    {
+                        "height": null,
+                        "url": "https://t.scdn.co/images/8a0fabf4d537486e9b5a4623c921f77e.jpeg",
+                        "width": null
+                    }
+                ],
+                "id": "bollywood",
+                "name": "Bollywood"
+            },
+            {
+                "href": "https://api.spotify.com/v1/browse/categories/punjabi",
+                "icons": [
+                    {
+                        "height": null,
+                        "url": "https://t.scdn.co/images/11e89d14d7844b7eb3d26619cb662a9b.jpeg",
+                        "width": null
+                    }
+                ],
+                "id": "punjabi",
+                "name": "Punjabi"
+            },
+            {
+                "href": "https://api.spotify.com/v1/browse/categories/tamil",
+                "icons": [
+                    {
+                        "height": null,
+                        "url": "https://t.scdn.co/images/2117dadfdd254825b3fbc52e3652ed56.jpeg",
+                        "width": null
+                    }
+                ],
+                "id": "tamil",
+                "name": "Tamil"
+            },
+            {
+                "href": "https://api.spotify.com/v1/browse/categories/telugu",
+                "icons": [
+                    {
+                        "height": null,
+                        "url": "https://t.scdn.co/images/96b5132876eb4e818723555ce365cd87.jpeg",
+                        "width": null
+                    }
+                ],
+                "id": "telugu",
+                "name": "Telugu"
+            },
+            {
+                "href": "https://api.spotify.com/v1/browse/categories/indie_alt",
+                "icons": [
+                    {
+                        "height": null,
+                        "url": "https://t.scdn.co/images/fe06caf056474bc58862591cd60b57fc.jpeg",
+                        "width": null
+                    }
+                ],
+                "id": "indie_alt",
+                "name": "Indie"
+            },
+            {
+                "href": "https://api.spotify.com/v1/browse/categories/pop",
+                "icons": [
+                    {
+                        "height": 274,
+                        "url": "https://t.scdn.co/media/derived/pop-274x274_447148649685019f5e2a03a39e78ba52_0_0_274_274.jpg",
+                        "width": 274
+                    }
+                ],
+                "id": "pop",
+                "name": "Pop"
+            },
+            {
+                "href": "https://api.spotify.com/v1/browse/categories/radar",
+                "icons": [
+                    {
+                        "height": null,
+                        "url": "https://t.scdn.co/images/c6677aa51acf4121b66b9d1f231bd427.png",
+                        "width": null
+                    }
+                ],
+                "id": "radar",
+                "name": "RADAR"
+            },
+            {
+                "href": "https://api.spotify.com/v1/browse/categories/marathi",
+                "icons": [
+                    {
+                        "height": null,
+                        "url": "https://t.scdn.co/images/713254a577a64338a450481329f0d83f.jpeg",
+                        "width": null
+                    }
+                ],
+                "id": "marathi",
+                "name": "Marathi"
+            },
+            {
+                "href": "https://api.spotify.com/v1/browse/categories/romance",
+                "icons": [
+                    {
+                        "height": 274,
+                        "url": "https://t.scdn.co/media/derived/romance-274x274_8100794c94847b6d27858bed6fa4d91b_0_0_274_274.jpg",
+                        "width": 274
+                    }
+                ],
+                "id": "romance",
+                "name": "Romance"
+            },
+            {
+                "href": "https://api.spotify.com/v1/browse/categories/kpop",
+                "icons": [
+                    {
+                        "height": null,
+                        "url": "https://t.scdn.co/images/2078afd91e4d431eb19efc5bee5ab131.jpeg",
+                        "width": null
+                    }
+                ],
+                "id": "kpop",
+                "name": "K-Pop"
+            },
+            {
+                "href": "https://api.spotify.com/v1/browse/categories/party",
+                "icons": [
+                    {
+                        "height": 274,
+                        "url": "https://t.scdn.co/media/links/partyicon_274x274.jpg",
+                        "width": 274
+                    }
+                ],
+                "id": "party",
+                "name": "Party"
+            },
+            {
+                "href": "https://api.spotify.com/v1/browse/categories/instrumental",
+                "icons": [
+                    {
+                        "height": null,
+                        "url": "https://t.scdn.co/images/384c2b595a1648aa801837ff99961188",
+                        "width": null
+                    }
+                ],
+                "id": "instrumental",
+                "name": "Instrumental"
+            },
+            {
+                "href": "https://api.spotify.com/v1/browse/categories/edm_dance",
+                "icons": [
+                    {
+                        "height": 274,
+                        "url": "https://t.scdn.co/media/derived/edm-274x274_0ef612604200a9c14995432994455a6d_0_0_274_274.jpg",
+                        "width": 274
+                    }
+                ],
+                "id": "edm_dance",
+                "name": "Dance/Electronic"
+            },
+            {
+                "href": "https://api.spotify.com/v1/browse/categories/decades",
+                "icons": [
+                    {
+                        "height": 274,
+                        "url": "https://t.scdn.co/media/derived/decades_9ad8e458242b2ac8b184e79ef336c455_0_0_274_274.jpg",
+                        "width": 274
+                    }
+                ],
+                "id": "decades",
+                "name": "Decades"
+            },
+            {
+                "href": "https://api.spotify.com/v1/browse/categories/hiphop",
+                "icons": [
+                    {
+                        "height": 274,
+                        "url": "https://t.scdn.co/media/original/hip-274_0a661854d61e29eace5fe63f73495e68_274x274.jpg",
+                        "width": 274
+                    }
+                ],
+                "id": "hiphop",
+                "name": "Hip Hop"
+            },
+            {
+                "href": "https://api.spotify.com/v1/browse/categories/workout",
+                "icons": [
+                    {
+                        "height": null,
+                        "url": "https://t.scdn.co/media/links/workout-274x274.jpg",
+                        "width": null
+                    }
+                ],
+                "id": "workout",
+                "name": "Workout"
+            },
+            {
+                "href": "https://api.spotify.com/v1/browse/categories/at_home",
+                "icons": [
+                    {
+                        "height": null,
+                        "url": "https://t.scdn.co/images/04da469dd7be4dab96659aa1fa9f0ac9.jpeg",
+                        "width": null
+                    }
+                ],
+                "id": "at_home",
+                "name": "At Home"
+            },
+            {
+                "href": "https://api.spotify.com/v1/browse/categories/roots",
+                "icons": [
+                    {
+                        "height": null,
+                        "url": "https://t.scdn.co/images/7fe0f2c9c91f45a3b6bae49d298201a4.jpeg",
+                        "width": null
+                    }
+                ],
+                "id": "roots",
+                "name": "Folk & Acoustic"
+            }
+        ],
+        "limit": 20,
+        "next": "https://api.spotify.com/v1/browse/categories?country=IN&offset=20&limit=20",
+        "offset": 0,
+        "previous": null,
+        "total": 46
+    }
+}

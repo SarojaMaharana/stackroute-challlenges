@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "registerUsername": "mehersk",
+      "registerEmail": "mehersupreeth@gmail.com",
+      "registerPassword": "1234567",
+      "registerPasswordRetype": "1234567",
+      "id": 1
+    },
+    {
+      "registerUsername": "meherpsit",
+      "registerEmail": "meher.psit@gmail.com",
+      "registerPassword": "1234567",
+      "registerPasswordRetype": "1234567",
+      "id": 2
+    },
+    {
+      "registerUsername": "mehersupreeth",
+      "registerEmail": "meher@gmail.com",
+      "registerPassword": "Meher@123",
+      "registerPasswordRetype": "Meher@123",
+      "id": 3
+    }
+  ]
+}

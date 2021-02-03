@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&display=swap");
+/* font-family: 'Cormorant', serif; */
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+/* font-family: 'Karla', sans-serif; */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+li,
+a,
+button {
+  text-decoration: none;
+  list-style-type: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 4em;
+  position: fixed;
+  width: 100%;
+  font-family: "Karla", sans-serif;
+  font-weight: bold;
+  background-color: #17082d;
+}
+header nav ul li {
+  display: inline-block;
+  padding: 0 20px;
+}
+header nav ul li a {
+  color: white;
+  transform: all 0.3s ease 0s;
+}
+.btn-purchase button {
+  padding: 15px 30px;
+  background-color: #68bb59;
+  color: white;
+  border: none;
+  border-radius: 50px;
+}
+.banner {
+  background-image: url("../Images/banner.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+.banner-mask {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100vh;
+}
+.banner-content {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30vh;
+  text-align: center;
+  color: #eaeeea;
+}
+.banner-content p {
+  font-family: "Karla", sans-serif;
+  padding: 2.5em 0;
+}
+.banner-content h1 {
+  font-family: "Cormorant", serif;
+  font-size: 60px;
+  font-weight: 500;
+  padding-bottom: 0.25em;
+}
+.banner-content a {
+  color: #eaeeea;
+  font-family: "Karla", sans-serif;
+  font-size: small;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #eaeeea;
+  letter-spacing: 2px;
+}
+.container .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5em 4em;
+}
+.container .row .column {
+  width: 50%;
+}
+.column.text-area {
+  padding-right: 5em;
+}
+.column h2 {
+  font-family: "Cormorant", serif;
+  font-size: 60px;
+  font-weight: 500;
+}
+.grid-container {
+  display: grid;
+  grid-gap: 8px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: 180px;
+  grid-auto-flow: dense;
+}
+.grid-content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  perspective: 1000px;
+}
+.grid-picture {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: all 0.5s;
+}
+.grid-picture .grid-front {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+  backface-visibility: hidden;
+}
+.grid-picture .grid-front img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.horizontal {
+  grid-column: span 2;
+}
+.vertical {
+  grid-row: span 2;
+}

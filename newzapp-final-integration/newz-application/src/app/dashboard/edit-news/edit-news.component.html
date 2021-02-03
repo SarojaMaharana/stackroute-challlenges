@@ -1,0 +1,62 @@
+<div class="container">
+  <h2>Edit News</h2>
+
+  <form (ngSubmit)="updateNews()">
+    <div class="form-group">
+      <label for="inputTitle">Title</label>
+      <input
+        type="text"
+        class="form-control"
+        id="inputTitle"
+        name="title"
+        value="{{ newsItem.title }}"
+        [(ngModel)]="newsItem.title"
+      />
+    </div>
+    <div class="form-group">
+      <label for="inputDescription">Description</label>
+      <textarea
+        class="form-control"
+        id="inputDescription"
+        rows="3"
+        name="description"
+        [(ngModel)]="newsItem.description"
+        >{{ newsItem.description }}</textarea
+      >
+    </div>
+    <div class="form-group">
+      <label for="inputUrl">Url</label>
+      <input
+        type="url"
+        class="form-control"
+        id="inputUrl"
+        name="url"
+        value="{{ newsItem.url }}"
+        [(ngModel)]="newsItem.url"
+      />
+    </div>
+    <div class="form-group">
+      <label for="inputUrlToImage">Url to image</label>
+      <input
+        type="url"
+        class="form-control"
+        id="inputUrlToImage"
+        name="urlToImage"
+        value="{{ newsItem.urlToImage }}"
+        [(ngModel)]="newsItem.urlToImage"
+      />
+    </div>
+    <div class="form-group">
+      <label for="inputContent">Content</label>
+      <textarea
+        class="form-control"
+        id="inputContent"
+        rows="3"
+        name="content"
+        [(ngModel)]="newsItem.content"
+        >{{ newsItem.content }}</textarea
+      >
+    </div>
+    <button type="submit" class="btn btn-primary">Update</button>
+  </form>
+</div>

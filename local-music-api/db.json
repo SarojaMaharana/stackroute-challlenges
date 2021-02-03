@@ -1,0 +1,29 @@
+{
+    "musicList": [
+      {
+        "albumId": "artPunk_sdfsdfb",
+        "albumTitle": "sdfsdfb",
+        "albumCategory": "artPunk",
+        "id": 1
+      },
+      {
+        "albumId": "alternativeRock_sdfdsf",
+        "albumTitle": "sdfdsf",
+        "albumCategory": "alternativeRock",
+        "id": 2
+      },
+      {
+        "albumId": "alternativeRock_dsfgsdf",
+        "albumTitle": "dsfgsdf",
+        "albumCategory": "alternativeRock",
+        "id": 3
+      },
+      {
+        "albumId": "britpunk_sgsfgb",
+        "albumTitle": "sgsfgb",
+        "albumCategory": "britpunk",
+        "id": 4
+      }
+    ]
+  }
+  

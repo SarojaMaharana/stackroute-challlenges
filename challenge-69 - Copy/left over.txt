@@ -1,0 +1,3 @@
+adding movies and favourites buttons
+style the titles wrt responsive
+eidt in favourites also

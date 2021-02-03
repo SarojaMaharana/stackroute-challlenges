@@ -1,0 +1,29 @@
+{
+  "students": [
+    {
+      "name": "Durai Velan667",
+      "contactno": "55555668",
+      "email": "durai.velan6666@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "contact23423",
+      "contactno": "43534543234",
+      "email": "contact222@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "som",
+      "contactno": "9830098303",
+      "email": "som@hotmail.com",
+      "id": 4
+    }
+  ],
+  "faculties": [
+    {
+      "id": 1,
+      "Name": "Madhu Samala",
+      "role": "Faculty"
+    }
+  ]
+}
